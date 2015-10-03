@@ -1,7 +1,7 @@
 <Page xmlns="http://www.nativescript.org/tns.xsd" loaded="pageLoaded">
 	<ScrollView>
 		<StackLayout>
-			<Image src="res://logo_agripa_completo" stretch="none" horizontalAlignment="center" />
+			<Image src="res://logo_agripa_completo" stretch="aspectFit" horizontalAlignment="center" />
 
 			<TextField id="email_address" text="{{ email }}" hint="Email Address" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
 			<TextField id="password" secure="true" text="{{ password }}" hint="Password" />
@@ -13,9 +13,7 @@
 			</GridLayout>
 
 			<GridLayout>
-				<Button text="Entrar" tap="signIn" cssClass="btn btn-login" />
-				<ActivityIndicator busy="{{ authenticating }}" />
-				<Button text="Cadastre-se" tap="signIn" cssClass="btn btn-cadastro" />
+				<Button text="Linkedin" tap="signIn" cssClass="btn-linkedin" />
 			</GridLayout>
 		</StackLayout>
 	</ScrollView>
