@@ -10,31 +10,34 @@ Page {
 	color: #FAFAFA;
 	padding: 10
 }
+
 TextField {
 	margin: 10;
 	padding: 10;
 	color: #FAFAFA;
-	/*background-color: red;*/
-/*	border-width: 1;
-	border-style: solid;
-	border-color: #C7C7CC;
-	border-radius: 2;*/
 }
+
 Image {
-	margin-top: 20;
+	/*margin-top: 20;
 	margin-left: 0;
 	margin-right: 0;
-	margin-bottom: 80;
+	margin-bottom: 80;*/
+	padding: 20;
+	width: 200;
+	height: 150;
+	text-align: center;
+	horizontal-align: center;
 }
-/*Button {
+
+.btn-linkedin {
 	margin: 10;
 	padding: 10;
-}*/
+}
 
 .btn-login, .btn-cadastro {
 	margin: 10;
 	padding: 10;
-	width: 150;
+	width: 120;
 	background-color: transparent;
 	border-width: 1;
 	border-style: solid;
