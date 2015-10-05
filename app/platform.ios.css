@@ -4,13 +4,15 @@ Button {
 	border-color: #034793;
 	border-radius: 2;
 }
+
 TextField {
-	background-color: #FAFAFA;
-	border-width: 1;
-	border-style: solid;
-	border-color: #C7C7CC;
+	background-color: transparent;
 	border-radius: 2;
+	border-style: solid;
+	border-bottom: #FAFAFA;
+	color: #FAFAFA;
 }
+
 .link {
 	border-width: 0;
 }

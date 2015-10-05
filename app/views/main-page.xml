@@ -7,13 +7,13 @@
 			<TextField id="password" secure="true" text="{{ password }}" hint="Password" />
 
 			<GridLayout>
-				<Button text="Entrar" tap="signIn" cssClass="btn btn-login" />
+				<Button text="Entrar" cssClass="btn btn-login" tap="register" />
 				<ActivityIndicator busy="{{ authenticating }}" />
-				<Button text="Cadastre-se" tap="signIn" cssClass="btn btn-cadastro" />
+				<Button text="Cadastre-se" cssClass="btn btn-cadastro" tap="register" />
 			</GridLayout>
 
 			<GridLayout>
-				<Button text="Linkedin" tap="signIn" cssClass="btn-linkedin" />
+				<Button text="Linkedin" cssClass="btn-linkedin" tap="register" />
 			</GridLayout>
 		</StackLayout>
 	</ScrollView>

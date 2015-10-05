@@ -1,0 +1,21 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="pageLoaded">
+	<ScrollView>
+		<StackLayout>
+			<StackLayout cssClass="cadastro-etapa1-bg">
+				<Image src="res://logo_agripa_periodico" stretch="aspectFit" horizontalAlignment="center" cssClass="logo-periodico" />
+				<Label text="Dados Básicos" horizontalAlignment="center" />
+			</StackLayout>
+
+			<StackLayout cssClass="cadastro-etapa1-bg-2">
+
+				<GridLayout>
+					<Button text="Prosseguir" cssClass="btn-prosseguir" />
+				</GridLayout>
+
+				<GridLayout>
+					<Button text="Linkedin" cssClass="btn-linkedin" />
+				</GridLayout>
+			</StackLayout>
+		</StackLayout>
+	</ScrollView>
+</Page>
