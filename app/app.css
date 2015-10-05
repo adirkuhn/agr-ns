@@ -18,10 +18,6 @@ TextField {
 }
 
 Image {
-	/*margin-top: 20;
-	margin-left: 0;
-	margin-right: 0;
-	margin-bottom: 80;*/
 	padding: 20;
 	width: 200;
 	height: 150;
@@ -32,6 +28,9 @@ Image {
 .btn-linkedin {
 	margin: 10;
 	padding: 10;
+	border-color: #287bbc;
+	background-color: #287bbc;
+	font-weight: bold;
 }
 
 .btn-login, .btn-cadastro {
@@ -52,4 +51,43 @@ Image {
 
 .btn-cadastro {
 	horizontal-align: right;
+}
+
+.btn-prosseguir{
+	margin: 10;
+	padding: 10;
+	border-color: #CDCDCD;
+	background-color: #FAFAFA;
+	color: #010101;
+	font-weight: bold;
+}
+
+.cadastro-etapa1-bg {
+	background-color: #FAFAFA;
+	background-image: res://fundo;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	font-size: 17;
+	color: #FAFAFA;
+	padding: 10
+}
+
+.cadastro-etapa1-bg-2 {
+	background-color: #FAFAFA;
+	background-position: center center;
+	background-size: cover;
+	font-size: 17;
+	color: #FAFAFA;
+	padding: 10
+}
+
+.logo-periodico {
+	margin: 30;
+	width: 50px;
+	height: 50px;
+}
+
+.label-cadastro-etapa1 {
+	margin: 20;
 }
