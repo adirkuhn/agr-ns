@@ -8,6 +8,11 @@
 
 			<StackLayout cssClass="cadastro-etapa1-bg-2">
 
+				<TextField id="email_address" text="{{ email }}" hint="Email" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
+				<TextField id="nome" text="{{ name }}" hint="Nome Completo" />
+				<TextField id="password" secure="true" text="{{ password }}" hint="Senha" />
+				<TextField id="password_confirm" secure="true" text="" hint="Confirmar senha" />
+
 				<GridLayout>
 					<Button text="Prosseguir" cssClass="btn-prosseguir" />
 				</GridLayout>
